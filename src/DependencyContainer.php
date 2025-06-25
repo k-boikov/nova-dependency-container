@@ -445,7 +445,7 @@ class DependencyContainer extends Field
      * @param NovaRequest $request
      * @return array
      */
-    public function getUpdateRules(NovaRequest $request)
+    public function getUpdateRules(NovaRequest $request): array
     {
         $fieldsRules = $this->getSituationalRulesSet($request, 'getUpdateRules');
 
